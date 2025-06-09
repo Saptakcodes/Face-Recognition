@@ -51,6 +51,7 @@ cd contactless-iot-doorbell
 
 *Project Structure:-*
 Face Detection and Recognition
+├── raspberry_pi_finalmodel_optimized.py       #Final Rpi model
 ├── index11_face_detection_livecamera.py       # Face detection module using live camera
 ├── index13_face_recognition.py                # Face recognition module
 ├── Saptak_Chaki                               # Database pictures for label (of owner of house)
