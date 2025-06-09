@@ -41,31 +41,30 @@ This project implements a **contactless smart doorbell system** using **Raspberr
 ## ⚙️ Installation & Setup
 
 ### 🎥 Enable Camera Interface
-
-
 sudo raspi-config
 
 
 Go to Interfacing Options > Camera and enable it. Then reboot the Pi.
 
-📦 Install Required Packages
-bash
-Copy
-Edit
+---
+
+## 📦 Install Required Packages
+
 sudo apt-get update
 sudo apt-get upgrade
 sudo apt-get install python3-opencv
 pip install smtplib
+
 🔗 Clone This Repository
-bash
-Copy
-Edit
+
 git clone https://github.com/Saptakcodes/Face-Recognition.git
+
 cd contactless-iot-doorbell
-📁 Project Structure
-bash
-Copy
-Edit
+
+---
+
+## 📁 Project Structure
+
 Face-Recognition/
 │
 ├── raspberry_pi_finalmodel_optimized.py      # Final Raspberry Pi model
@@ -76,16 +75,16 @@ Face-Recognition/
 ├── haarcascade_frontalface_default.xml       # Haar cascade classifier
 ├── face_trained.yml                          # Trained face recognition model
 └── README.md                                 # This file
-▶️ Usage
+
+## ▶️ Usage
+
 ✅ Connect all hardware components as per the circuit diagram.
 
 🏃‍♂️ Run the main program:
 
-bash
-Copy
-Edit
-python3 main.py
-📸 System Workflow:
+---
+
+# 📸 System Workflow:
 
 Detects visitors via ultrasonic sensor
 
@@ -101,7 +100,10 @@ Rings the buzzer
 
 If recognized as the owner, it does nothing
 
-🌟 Features
+---
+
+## 🌟 Features:-
+
 🙌 Contactless visitor detection
 
 🧠 Real-time face recognition
@@ -114,7 +116,10 @@ If recognized as the owner, it does nothing
 
 🛑 Rate-limited email alerts to prevent spamming
 
-🔮 Future Scope
+---
+
+## 🔮 Future Scope
+
 🤖 Integration of deep learning models (FaceNet, Dlib, etc.)
 
 📱 Mobile app for live feed and control
@@ -129,7 +134,9 @@ If recognized as the owner, it does nothing
 
 🔒 GDPR-compliant privacy and encryption standards
 
-🧪 Troubleshooting
+---
+
+## 🧪 Troubleshooting
 ❌ Camera not detected?
 Run sudo raspi-config to enable it under Interfacing Options.
 
@@ -139,10 +146,14 @@ Use an App Password (especially for Gmail) instead of your main password.
 🔍 Sensor not accurate?
 Check distance range, wiring, or adjust the threshold in code.
 
-📜 License
+---
+
+## 📜 License
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
-🙏 Acknowledgments
+---
+
+## 🙏 Acknowledgments
 🧠 OpenCV – for face detection & recognition
 
 🍓 Raspberry Pi Foundation – for hardware and documentation
@@ -150,3 +161,5 @@ This project is licensed under the MIT License. See the LICENSE file for more de
 🐍 Python Community – for libraries and open-source support
 
 🚀 Built with 💡 innovation and 🔒 security by Group 1
+
+---
