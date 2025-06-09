@@ -51,14 +51,13 @@ cd contactless-iot-doorbell
 
 *Project Structure:-*
 Face Detection and Recognition
-├── main.py                # Main program script
-├── face_detection.py       # Face detection module
-├── face_recognition.py     # Face recognition module
-├── email_notification.py   # Email notification handler
-├── requirements.txt        # Python dependencies
-├── haarcascades/           # Haar cascade files
-├── known_faces/            # Database of known faces
-└── README.md               # This file
+├── index11_face_detection_livecamera.py       # Face detection module using live camera
+├── index13_face_recognition.py                # Face recognition module
+├── Saptak_Chaki                               # Database pictures for label (of owner of house)
+├── haarcascade_frontalface_default.xml        # trained_model
+├── face_trained.yml                           # Haar cascade files
+├── index12_faces_train.py                     # Database of known faces
+└── README.md                                  # This file
 
 *Usage:-*
 
