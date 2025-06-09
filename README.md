@@ -46,7 +46,8 @@ sudo apt-get install python3-opencv
 pip install smtplib
 3. Clone this Repository
 bash
-git clone https://github.com/Saptakcodes/FaceRecognition.git
+[git clone https://github.com/Saptakcodes/FaceRecognition.git]
+(https://github.com/Saptakcodes/Face-Recognition.git)
 cd contactless-iot-doorbell
 
 *Project Structure:-*
