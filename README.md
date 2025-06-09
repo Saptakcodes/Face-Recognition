@@ -58,6 +58,7 @@ pip install smtplib
 bash
 git clone https://github.com/Saptakcodes/FaceRecognition.git
 cd contactless-iot-doorbell
+
 Project Structure
 text
 contactless-iot-doorbell/
@@ -69,6 +70,7 @@ contactless-iot-doorbell/
 ├── haarcascades/           # Haar cascade files
 ├── known_faces/            # Database of known faces
 └── README.md               # This file
+
 Usage
 Connect all hardware components as per the circuit diagram
 
